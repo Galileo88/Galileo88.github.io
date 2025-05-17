@@ -1,7 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gridiron Rise</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#d32f2f">
+  <link rel="apple-touch-icon" href="icon-192.png">
+</head>
 <body>
-<h1>Hello World</hi>
-<p>I'm hosted with GitHub Pages.</p>
+  <div id="app">
+    <h1>Gridiron Rise</h1>
+    <div id="main-menu">
+      <button onclick="startNewGame()">Start New Career</button>
+      <button onclick="loadGame()">Load Career</button>
+      <button onclick="viewHallOfFame()">Hall of Fame</button>
+    </div>
+    <div id="game-screen" style="display:none;"></div>
+  </div>
+  <script src="game.js"></script>
 </body>
 </html>
