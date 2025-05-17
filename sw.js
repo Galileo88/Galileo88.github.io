@@ -1,3 +1,4 @@
+
 const cacheName = "gridiron-cache-v1";
 const assets = [
   "index.html",
